@@ -21,7 +21,9 @@ const products = [
     {id:1,name:"Beras Sedap Wangi",price:50000,img:"images/beras.png"},
     ...
 ];
+
 const cart = [];
+
 function showProducts(){
     const productsDiv = document.getElementById('products');
     productsDiv.innerHTML = '';
@@ -37,4 +39,5 @@ function showProducts(){
         productsDiv.appendChild(productDiv);
     });
 }
+
 showProducts();
