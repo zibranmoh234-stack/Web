@@ -1,4 +1,4 @@
-# Supermarket Online - Dokumentasi Codingan
+# Supermarket Online
 
 Ini adalah penjelasan detail dari proyek web supermarket sederhana yang menggunakan HTML, CSS, dan JavaScript.
 
