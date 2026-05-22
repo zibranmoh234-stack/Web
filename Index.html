@@ -3,34 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Supermarket Online</title>
-
+    <title>To-Do List & Supermarket Online</title>
     <!-- CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+
+    <!-- TO-DO LIST -->
+    <div class="container">
+        <h1>To-Do List Tugas Kuliah</h1>
+        <p>Tambah tugas dan klik tugas untuk menghapusnya.</p>
+        <div class="input-group">
+            <input type="text" id="taskInput" placeholder="Tambahkan tugas...">
+            <button id="addBtn">Tambah</button>
+        </div>
+        <ul id="taskList"></ul>
+    </div>
 
     <!-- SUPERMARKET ONLINE -->
     <header>
         <h1>Supermarket Online</h1>
-        <div class="cart">
-            🛒 Keranjang:
-            <span id="cart-count">0</span> items
-        </div>
+        <div class="cart">🛒 Keranjang: <span id="cart-count">0</span> items</div>
     </header>
 
     <main>
         <section class="products" id="products"></section>
     </main>
 
-    <footer>
-        &copy; 2026 Supermarket Online
-    </footer>
+    <footer>&copy; 2026 Supermarket Online</footer>
 
-    <!-- JavaScript -->
+    <!-- JavaScript (Cukup dipanggil sekali di paling bawah) -->
     <script src="script.js"></script>
-
 </body>
 </html>
